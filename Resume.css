@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+}
+body{
+    background: url("background.PNG") no-repeat fixed ;
+    background-size: cover;
+    
+    height: 100vh;
+    width: 100%;
+    padding: 60px 60px;
+    
+}
+hr{
+   background-color: aliceblue;
+   height: 3px;
+}
+h1, h2{
+    font-family: 'Caesar Dressing';
+}
+@media screen and (max-width: 767px) {
+    body{
+        background: rgb(36, 36, 36);
+        padding: 0%;
+        height: auto;
+        width: auto;
+    }
+    .h4{
+        font-size: unset;
+    }
+    
+}
+.card{
+    padding-top: 10px;
+}
+.card-body{
+    padding-bottom: 10px;
+}
+.fa{
+    font-size: 30px;
+}
+.card1{
+    margin-bottom: 10px;
+    position: relative;
+    
+   
+}
+@media screen and (min-width:768px) {
+    .card1{
+        margin-bottom: 10px;
+        position: relative;
+        padding: 15px;
+       
+    }
+    ul{
+        list-style: none;
+        font-size: 20px;
+    }
+    .scroll{
+        height: 550px;
+        overflow-y: scroll;
+    }
+    .card-link{
+        color: rgb(129, 181, 230);
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      
+      ::-webkit-scrollbar-track {
+        border-radius: 10px;
+      }
+       
+     
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 10px;
+      }
+      
+     
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+     
+    
+}
+
+table{
+    font-size: 15px;
+}
